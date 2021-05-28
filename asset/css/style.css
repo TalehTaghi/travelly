@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+}
+
+input
+{
+    width: 326px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font: 400 16px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+}
+
+button
+{
+    background-color: #fd4f32;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font: 700 16px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Header starts css */
+
+header {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+header nav img
+{
+    cursor: pointer;
+}
+
+header nav i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-text h1 {
+    font: 300 52px 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 210px;
+    margin-bottom: 30px;
+}
+
+.header-text form {
+    padding-bottom: 205px;
+}
+
+.header-text input {
+    background-color: #ffffff;
+}
+
+.header-text button {
+    padding: 15px 50px;
+}
+
+/* Section 1 starts css */
+
+#destinations
+{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: #eeeeee;
+}
+
+#destinations h2
+{
+    font: 600 16px 'Montserrat', sans-serif;
+    color: #323232;
+    margin-bottom: 10px;
+}
+
+#some
+{
+    font: 400 15px 'Open Sans', sans-serif;
+    color: #8b8b8b;
+    margin-bottom: 40px;
+}
+
+#destinations .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#destinations .cards article
+{
+    background-color: #ffffff;
+    border-bottom: 3px solid #e1dfd8;
+    width: 24%;
+}
+
+#destinations .cards .photo
+{
+    position: relative;
+}
+
+#destinations .cards .photo img
+{
+    cursor: pointer;
+}
+
+#destinations .cards .photo .price
+{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font: 400 12px 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+#destinations .cards .textOfCard
+{
+    padding: 20px 0 20px 20px;
+}
+
+#destinations .cards .textOfCard h3
+{
+    font: 600 14px 'Montserrat', sans-serif;
+    color: #323232;
+    margin-bottom: 20px;
+}
+
+#destinations .cards .textOfCard p
+{
+    font: 400 13px 'Open Sans', sans-serif;
+    line-height: 19px;
+    color: #696969;
+}
+
+/* Section 2 starts css */
+
+#before
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#before h1
+{
+    font: 300 52px 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #323232;
+    margin-bottom: 65px;
+}
+
+#before h3
+{
+    font: 600 16px 'Montserrat', sans-serif;
+    color: #323232;
+}
+
+#before .texts
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+#before .texts h3
+{
+    margin-bottom: 20px;
+}
+
+#before .texts p
+{
+    font: 400 15px 'Open Sans', sans-serif;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+#before .subscribe_form h3
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#before .subscribe_form form
+{
+    height: 40px;
+}
+
+#before .subscribe_form input
+{
+    background-color: #eeeeee;
+}
+
+#before .subscribe_form button
+{
+    padding: 10px 30px;
+}
+
+/* footer starts css */
+
+footer
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+}
+
+#foot
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p
+{
+    font: 400 14px 'Open Sans', sans-serif;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+footer nav li
+{
+    display: inline-block;
+}
+
+footer nav li a
+{
+    font: 600 14px 'Montserrat', sans-serif;
+    color: #323232;
+    margin-left: 15px;
+}
